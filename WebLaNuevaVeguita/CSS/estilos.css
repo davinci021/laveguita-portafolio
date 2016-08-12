@@ -1,0 +1,220 @@
+body,tr,td,table,div{
+	padding: 0;
+	text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.body{
+	background-image: url('http://data.hdwallpapers.im/fruit_encyclopedia_supermarkets_fruit_street_markets.jpg');
+
+}
+
+.panel-label{
+    padding: 25px 10px;
+    text-align: center
+}
+
+.imgPedido
+{
+    width: 75px;
+    height: 75px
+    }
+
+.btn-default:hover,.navbar-toggle:hover{
+	border: 1px solid #BDBDBD;
+}
+.wrap{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu-pro{
+    padding: 27px 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #00695C;
+    color: #fff
+    }
+.seccionToggle{
+	display: auto;
+	height: calc(90vh - 50px);
+	background: #263238;
+	padding: 50px 0;
+	color: #001F3F;
+	text-align: left;
+}
+
+.seccionToggle div nav ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px 70px ;
+	
+}
+.seccionToggle div nav ul{list-style: none}
+.seccionToggle div nav ul li a{
+	color: #FFF;}
+
+.titulo{
+    background: black;
+    color: White;
+    font-weight: 400;
+    }
+    
+.form-control
+{
+    width: 100%
+    }
+
+.btn-toggle{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	color: #000;
+	background: #FFDC00;
+	text-align: center;
+	text-decoration: none;
+}
+
+.newletter{
+	background: #76FF03;
+	font-size: 15px;
+	font-weight: bold;
+	border: 4px solid #001F3F;
+	padding: 6px 16px;
+	display: inline-block;
+	transition: .3 all ease;
+	}.newletter:hover{
+		border: 4px solid #0074D9;
+		color: #0074D9}
+.social{position: absolute;display: inline-block;width: 45%;}
+.social ul li a{
+	color:#fff;
+	padding: 0 17px;
+	font-size: 25px;
+	text-decoration: none;}
+.subcripcion{display: block; float: right;text-align: right;width: 45%;}
+.subcrip{width: 100%; color: #fff; text-align: right;}
+.cajasub{padding: 10px 10px; border-style: none;}
+.social ul li{	display: inline-block; margin-left: 15px}
+.social ul{list-style: none;}
+.icon-facebook {background:#3b5998; color: white; border-radius: 2px}
+.icon-twitter {color: white}
+.icon-google-plus {background:#d95232; color: white}
+
+#movieForm .form-control-feedback {
+    right: 15px;
+}
+#movieForm .selectContainer .form-control-feedback {
+    right: 25px;
+}
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row.no-gutter .form-control-feedback {
+    right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child) input {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.row.no-gutter [class*='col-']:not(:last-child) input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 800px){
+	.seccionToggle h2{
+		margin-top: 0}
+	.social{
+		position: relative;
+		display: block;
+		width: 100%;}
+	.subcripcion{
+		display: block;
+		width: 100%;
+		text-align: left;}
+	.subcrip{text-align: left;}
+	button{
+	font-size: 12px;
+	padding: 8px 5px;}
+	.cajasub{padding: 10px 3px;}
+	.seccionToggle div nav ul li{
+		text-decoration: none;
+		display: inline-block;
+		border-right: 2px solid #616161;
+		margin: 3px;
+		padding-right: 6px
+	}
+}
+
+
+
+
+label{
+	font-family: 'Roboto', Arial, Tahoma, Sans-serif, Verdana, Helvetica;
+	font-weight: bold;
+	color: grey;
+}
+
+.sesion h3, .sesion p, h1{
+	text-align: center;
+	margin-top: 30px;}
+
+.inpForm{
+	width: 800px;
+	margin: 18px auto;
+	border-style: none;
+	border: 1px solid #BDBDBD;
+	padding: 15px 15px;
+	max-width: 300px;
+}
+
+.contenedor{
+	
+	margin: 40px 55px;
+	min-height: 1000px;
+	border-radius: 9px;
+	-webkit-box-shadow: -2px 0px 23px 3px rgba(0,0,0,0.52);
+	-moz-box-shadow: -2px 0px 23px 3px rgba(0,0,0,0.52);
+	box-shadow: -2px 0px 23px 3px rgba(0,0,0,0.52);
+}
+
+.sesion{
+	color: #424242;
+	margin: 10px 0 0 70px;
+	width: 40%;
+	display: inline-table;
+}
+
+.btn-sesion{
+	background: #006064;
+	padding: 15px 60px;
+	margin-left: 2px;
+	border-style: none;
+	color: #E0E0E0;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 3px;
+	}.btn-sesion:hover{
+		background: #009688;}
+
+@media screen and (max-width: 900px){
+	.sesion{margin: 50px 5px; display: block; width: 90%;}
+	.contenedor{width: 100%; margin: 0 0;border-radius: 0;position: absolute;}
+	.right{background: #EEEEEE; padding: 10px 10px;}
+	.left{background: #C8E6C9; padding: 10px 10px;}}
+	.inpForm{width: 200px}
+}

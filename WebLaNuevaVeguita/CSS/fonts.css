@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?yi0xht');
+    src:    url('fonts/icomoon.eot?yi0xht#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?yi0xht') format('truetype'),
+        url('fonts/icomoon.woff?yi0xht') format('woff'),
+        url('fonts/icomoon.svg?yi0xht#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-share2:before {
+    content: "\e900";
+}
+.icon-mail:before {
+    content: "\e901";
+}
+.icon-mail3:before {
+    content: "\e902";
+}
+.icon-google3:before {
+    content: "\e903";
+}
+.icon-google-plus:before {
+    content: "\e904";
+}
+.icon-google-plus2:before {
+    content: "\e905";
+}
+.icon-google-plus3:before {
+    content: "\e906";
+}
+.icon-google-drive:before {
+    content: "\e907";
+}
+.icon-facebook:before {
+    content: "\e908";
+}
+.icon-facebook2:before {
+    content: "\e909";
+}
+.icon-whatsapp:before {
+    content: "\e90a";
+}
+.icon-spotify:before {
+    content: "\e90b";
+}
+.icon-twitter:before {
+    content: "\e90c";
+}
+.icon-vine:before {
+    content: "\e90d";
+}
+.icon-vk:before {
+    content: "\e90e";
+}
+.icon-rss2:before {
+    content: "\e90f";
+}
+.icon-youtube:before {
+    content: "\e910";
+}
+.icon-youtube2:before {
+    content: "\e911";
+}
+.icon-vimeo:before {
+    content: "\e912";
+}
+.icon-appleinc:before {
+    content: "\e913";
+}
+.icon-android:before {
+    content: "\e914";
+}
+.icon-windows8:before {
+    content: "\e915";
+}
+.icon-soundcloud:before {
+    content: "\e916";
+}
+.icon-soundcloud2:before {
+    content: "\e917";
+}
+.icon-skype:before {
+    content: "\e918";
+}
+.icon-chrome:before {
+    content: "\e919";
+}
+.icon-IE:before {
+    content: "\e91a";
+}
+.icon-edge:before {
+    content: "\e91b";
+}
+.icon-safari:before {
+    content: "\e91c";
+}
+.icon-opera:before {
+    content: "\e91d";
+}
+.icon-file-pdf:before {
+    content: "\e91e";
+}
+.icon-html-five:before {
+    content: "\e91f";
+}
+.icon-html-five2:before {
+    content: "\e920";
+}
+

@@ -1,0 +1,10 @@
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\obj\Debug\WebLaNuevaVeguita.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\WebLaNuevaVeguita.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\WebLaNuevaVeguita.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\BiblitecaClases.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\BibliotecaADO.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\Oracle.DataAccess.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\BiblitecaClases.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\bin\BibliotecaADO.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\obj\Debug\WebLaNuevaVeguita.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\WebLaNuevaVeguita\obj\Debug\WebLaNuevaVeguita.pdb
