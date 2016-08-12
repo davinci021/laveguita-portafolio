@@ -1,0 +1,5 @@
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BibliotecaADO\bin\Debug\BibliotecaADO.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BibliotecaADO\bin\Debug\BibliotecaADO.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BibliotecaADO\bin\Debug\Oracle.DataAccess.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BibliotecaADO\obj\Debug\BibliotecaADO.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BibliotecaADO\obj\Debug\BibliotecaADO.pdb
