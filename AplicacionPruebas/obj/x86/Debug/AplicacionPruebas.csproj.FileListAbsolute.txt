@@ -1,0 +1,9 @@
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\AplicacionPruebas.exe
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\AplicacionPruebas.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\BiblitecaClases.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\BibliotecaADO.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\BiblitecaClases.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\bin\Debug\BibliotecaADO.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\obj\x86\Debug\AplicacionPruebas.csprojResolveAssemblyReference.cache
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\obj\x86\Debug\AplicacionPruebas.exe
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\AplicacionPruebas\obj\x86\Debug\AplicacionPruebas.pdb
