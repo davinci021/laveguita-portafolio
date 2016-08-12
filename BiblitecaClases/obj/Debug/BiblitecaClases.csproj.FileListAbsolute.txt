@@ -1,0 +1,8 @@
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\bin\Debug\BiblitecaClases.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\bin\Debug\BiblitecaClases.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\bin\Debug\BibliotecaADO.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\bin\Debug\Oracle.DataAccess.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\bin\Debug\BibliotecaADO.pdb
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\obj\Debug\BiblitecaClases.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\obj\Debug\BiblitecaClases.dll
+c:\users\david\documents\visual studio 2010\Projects\Nuevo__PortafolioLaVeguita\BiblitecaClases\obj\Debug\BiblitecaClases.pdb

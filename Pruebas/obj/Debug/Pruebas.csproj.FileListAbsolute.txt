@@ -1,0 +1,10 @@
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\Pruebas.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\Pruebas.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\BiblitecaClases.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\BibliotecaADO.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\Oracle.DataAccess.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\BiblitecaClases.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\bin\Debug\BibliotecaADO.pdb
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\obj\Debug\Pruebas.csprojResolveAssemblyReference.cache
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\obj\Debug\Pruebas.dll
+C:\Users\david\Documents\Visual Studio 2010\Projects\Nuevo__PortafolioLaVeguita\Pruebas\obj\Debug\Pruebas.pdb
