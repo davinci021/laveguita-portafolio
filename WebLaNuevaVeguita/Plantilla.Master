@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.master.cs" Inherits="WebLaNuevaVeguita.Plantilla" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>LaVeguita | Supermercados Online</title>
+    <meta charset="utf-8">
+    <link href="CSS/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image: url('imagenes/green_cup.png'); background-repeat: repeat;">
+    
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+       
+        <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="laveguita.aspx" style="background: #546E7A; color: white;font-weight: bold;" >LaVeguita</a>
+
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <div class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Buscar productos..."/>
+            </div>
+            <button type="submit" class="btn btn-default">Buscar</button>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Producto <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
+                <asp:Label ID="lblBodega" runat="server" Text="<li><a href='producto-catalogo.aspx'>Productos</a></li>"></asp:Label>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li><a href="producto-catalogo.aspx">Ofertas</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+            <li><asp:Label ID="lblIndex" runat="server"><li><a href="#2">Ofertas</a></li><li><a href="#3">Destacados</a></li><li><a href="#4">Nosotros</a></li></asp:Label>
+          </li>
+
+          <li><a href="usuario-sesion.aspx"><asp:Label ID="lblSesion" runat="server" Text="Mi Cuenta"></asp:Label></a></li>
+          <li role="presentation" class="active"><a href="producto-carrito.aspx">Carro <span class="glyphicon glyphicon-shopping-cart">
+              <asp:Label ID="lblCont" runat="server" Text=""></asp:Label>
+              </span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+
+    <div style="margin: 50px auto; width: 80%; min-height:800px; background-image: url('../imagenes/cream_pixels.png'); background-repeat: repeat; padding: 10px 20px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <p id="btn-toggle" class="btn-toggle">Información</p>
+    <section class="seccionToggle">
+      <div class="wrap">
+        <nav>
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactar</a></li>
+            <li><a href="#">Empleo</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="#">Términos de uso</a></li>
+            <li style="border-right: none"><a href="#">Sitemap</a></li>
+          </ul>
+        </nav>
+        <hr/>
+        <div class="social">
+          <ul>
+            <li><a href="#" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="#" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="#" target="_blank" class="icon-google-plus"></a></li>
+          </ul>
+        </div>
+        <div class="subcripcion">
+          <div class="subcrip">Subcribete a newletter y recibe 10% en tu primera compra.</div>
+          <input class="cajasub" type="email" placeholder="Tu dirección de correo"/><button class="newletter">Subcribirse</button>
+        </div>
+      </div>
+  </section>
+    <script src="JS/npm.js" type="text/javascript"></script>
+    <script src="JS/html5shiv.min.js" type="text/javascript"></script>
+    <script src="JS/bootstrap.js" type="text/javascript"></script>
+    <script src="JS/jquery-1.12.2.js" type="text/javascript"></script>
+    <script src="JS/script.js" type="text/javascript"></script>
+    <script src="JS/jquery.min.js" type="text/javascript"></script>
+    <script src="JS/main.js" type="text/javascript"></script>
+    <script src="JS/bootstrap.min.js" type="text/javascript"></script>
+    </form>
+</body>
+</html>

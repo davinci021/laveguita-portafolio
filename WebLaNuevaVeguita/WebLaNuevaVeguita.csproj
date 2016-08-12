@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{734BF334-3419-4E29-AE5D-1EB8A031B094}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebLaNuevaVeguita</RootNamespace>
+    <AssemblyName>WebLaNuevaVeguita</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cliente-direccion.aspx" />
+    <Content Include="cliente-anular.aspx" />
+    <Content Include="CSS\bootstrap-theme.css" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\estilos.css" />
+    <Content Include="CSS\fonts.css" />
+    <Content Include="CSS\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="CSS\fonts\icomoon.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="imagenes\1.jpg" />
+    <Content Include="imagenes\2.jpg" />
+    <Content Include="imagenes\3.jpg" />
+    <Content Include="imagenes\4.jpg" />
+    <Content Include="imagenes\5.jpg" />
+    <Content Include="imagenes\6.jpg" />
+    <Content Include="imagenes\7.jpg" />
+    <Content Include="imagenes\8.jpg" />
+    <Content Include="imagenes\asanoha-400px.png" />
+    <Content Include="imagenes\Best_Practices_check.png" />
+    <Content Include="imagenes\cheap_diagonal_fabric.png" />
+    <Content Include="imagenes\confectionary.png" />
+    <Content Include="imagenes\congruent_pentagon.png" />
+    <Content Include="imagenes\cream_pixels.png" />
+    <Content Include="imagenes\dark_embroidery.png" />
+    <Content Include="imagenes\eight_horns.png" />
+    <Content Include="imagenes\food.png" />
+    <Content Include="imagenes\green_cup.png" />
+    <Content Include="imagenes\pagos\bancoestado.gif" />
+    <Content Include="imagenes\pagos\ripley.gif" />
+    <Content Include="imagenes\pagos\webpay.gif" />
+    <Content Include="imagenes\paisley.png" />
+    <Content Include="imagenes\pineapplecut.png" />
+    <Content Include="imagenes\productos\1.jpg" />
+    <Content Include="imagenes\productos\2.jpg" />
+    <Content Include="imagenes\productos\21.jpg" />
+    <Content Include="imagenes\productos\22.jpg" />
+    <Content Include="imagenes\productos\23.jpg" />
+    <Content Include="imagenes\productos\24.jpg" />
+    <Content Include="imagenes\productos\3.jpg" />
+    <Content Include="imagenes\productos\4.jpg" />
+    <Content Include="imagenes\productos\41.jpg" />
+    <Content Include="imagenes\productos\42.jpg" />
+    <Content Include="imagenes\productos\5.jpg" />
+    <Content Include="imagenes\productos\6.jpg" />
+    <Content Include="imagenes\productos\7.jpg" />
+    <Content Include="imagenes\productos\banner_01.jpg" />
+    <Content Include="imagenes\productos\banner_02.jpg" />
+    <Content Include="imagenes\productos\banner_03.jpg" />
+    <Content Include="imagenes\productos\banner_04.jpg" />
+    <Content Include="imagenes\productos\banner_05.jpg" />
+    <Content Include="imagenes\restaurant_icons.png" />
+    <Content Include="imagenes\subtle_white_mini_waves.png" />
+    <Content Include="imagenes\supermarkets_fruit2.jpg" />
+    <Content Include="imagenes\swirl_pattern.png" />
+    <Content Include="imagenes\symphony.png" />
+    <Content Include="imagenes\Veguita_check.ico" />
+    <Content Include="jefeOperaciones-anularVenta.aspx" />
+    <Content Include="jefeOperaciones-reporteVentas.aspx" />
+    <Content Include="JS\bootstrap.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\html5shiv.min.js" />
+    <Content Include="JS\jquery-1.12.2.js" />
+    <Content Include="JS\jquery.min.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\npm.js" />
+    <Content Include="JS\script.js" />
+    <Content Include="administrador-crearUsuario.aspx" />
+    <Content Include="administrador-modificarUsuario.aspx" />
+    <Content Include="cliente-cambiarClave.aspx" />
+    <Content Include="cliente-misPedidos.aspx" />
+    <Content Include="cliente-modificar.aspx" />
+    <Content Include="usuario-sesion.aspx" />
+    <Content Include="encargadoBodega-crearProducto.aspx" />
+    <Content Include="encargadoBodega-modElimProducto.aspx" />
+    <Content Include="encargadoBodega-obtenerDespacho.aspx" />
+    <Content Include="exit-laveguita.aspx" />
+    <Content Include="laveguita.aspx" />
+    <Content Include="producto-carrito.aspx" />
+    <Content Include="producto-catalogo.aspx" />
+    <Content Include="producto-detalle.aspx" />
+    <Content Include="producto-pedido.aspx" />
+    <Content Include="sistemaAbastecimiento-alarmasStock.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrador-crearUsuario.aspx.cs">
+      <DependentUpon>administrador-crearUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrador-crearUsuario.aspx.designer.cs">
+      <DependentUpon>administrador-crearUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrador-modificarUsuario.aspx.cs">
+      <DependentUpon>administrador-modificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrador-modificarUsuario.aspx.designer.cs">
+      <DependentUpon>administrador-modificarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cliente-cambiarClave.aspx.cs">
+      <DependentUpon>cliente-cambiarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cliente-cambiarClave.aspx.designer.cs">
+      <DependentUpon>cliente-cambiarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cliente-direccion.aspx.cs">
+      <DependentUpon>cliente-direccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cliente-direccion.aspx.designer.cs">
+      <DependentUpon>cliente-direccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cliente-misPedidos.aspx.cs">
+      <DependentUpon>cliente-misPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cliente-misPedidos.aspx.designer.cs">
+      <DependentUpon>cliente-misPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cliente-modificar.aspx.cs">
+      <DependentUpon>cliente-modificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cliente-modificar.aspx.designer.cs">
+      <DependentUpon>cliente-modificar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cliente-anular.aspx.cs">
+      <DependentUpon>cliente-anular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cliente-anular.aspx.designer.cs">
+      <DependentUpon>cliente-anular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle.cs" />
+    <Compile Include="DetalleBD.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="jefeOperaciones-anularVenta.aspx.cs">
+      <DependentUpon>jefeOperaciones-anularVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jefeOperaciones-anularVenta.aspx.designer.cs">
+      <DependentUpon>jefeOperaciones-anularVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jefeOperaciones-reporteVentas.aspx.cs">
+      <DependentUpon>jefeOperaciones-reporteVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jefeOperaciones-reporteVentas.aspx.designer.cs">
+      <DependentUpon>jefeOperaciones-reporteVentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuario-sesion.aspx.cs">
+      <DependentUpon>usuario-sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario-sesion.aspx.designer.cs">
+      <DependentUpon>usuario-sesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encargadoBodega-crearProducto.aspx.cs">
+      <DependentUpon>encargadoBodega-crearProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encargadoBodega-crearProducto.aspx.designer.cs">
+      <DependentUpon>encargadoBodega-crearProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encargadoBodega-modElimProducto.aspx.cs">
+      <DependentUpon>encargadoBodega-modElimProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encargadoBodega-modElimProducto.aspx.designer.cs">
+      <DependentUpon>encargadoBodega-modElimProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encargadoBodega-obtenerDespacho.aspx.cs">
+      <DependentUpon>encargadoBodega-obtenerDespacho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encargadoBodega-obtenerDespacho.aspx.designer.cs">
+      <DependentUpon>encargadoBodega-obtenerDespacho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exit-laveguita.aspx.cs">
+      <DependentUpon>exit-laveguita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exit-laveguita.aspx.designer.cs">
+      <DependentUpon>exit-laveguita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="laveguita.aspx.cs">
+      <DependentUpon>laveguita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="laveguita.aspx.designer.cs">
+      <DependentUpon>laveguita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto-carrito.aspx.cs">
+      <DependentUpon>producto-carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto-carrito.aspx.designer.cs">
+      <DependentUpon>producto-carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto-catalogo.aspx.cs">
+      <DependentUpon>producto-catalogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto-catalogo.aspx.designer.cs">
+      <DependentUpon>producto-catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto-detalle.aspx.cs">
+      <DependentUpon>producto-detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto-detalle.aspx.designer.cs">
+      <DependentUpon>producto-detalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto-pedido.aspx.cs">
+      <DependentUpon>producto-pedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto-pedido.aspx.designer.cs">
+      <DependentUpon>producto-pedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistemaAbastecimiento-alarmasStock.aspx.cs">
+      <DependentUpon>sistemaAbastecimiento-alarmasStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistemaAbastecimiento-alarmasStock.aspx.designer.cs">
+      <DependentUpon>sistemaAbastecimiento-alarmasStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plantilla.Master.cs">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plantilla.Master.designer.cs">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BiblitecaClases\BiblitecaClases.csproj">
+      <Project>{E5FDE9F3-C06B-4B12-BD17-40F764647733}</Project>
+      <Name>BiblitecaClases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Plantilla.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Paginas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSS\bootstrap-theme.css.map" />
+    <None Include="CSS\bootstrap-theme.min.css.map" />
+    <None Include="CSS\bootstrap.css.map" />
+    <None Include="CSS\bootstrap.min.css.map" />
+    <None Include="CSS\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="CSS\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="CSS\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="CSS\fonts\icomoon.eot" />
+    <None Include="CSS\fonts\icomoon.ttf" />
+    <None Include="CSS\fonts\icomoon.woff" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16624</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
